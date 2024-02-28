@@ -2,22 +2,32 @@
   margin: 0;
 }
 
+h1 {
+  margin-left: 24px;
+}
+
 .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.svg-div {
-  height: 320px;
-}
-
-.bg-div {
-  height: 100%;
+  align-items: center;
   background-color: hsl(275, 100%, 97%);
+}
+
+.accordion {
+  height: 400px;
+  width: 40%;
+  padding: 16px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 16px;
+}
+
+.title {
+  padding: 12px 0;
   display: flex;
-  justify-content: center;
-  align-items: end;
 }
 
 .attribution {

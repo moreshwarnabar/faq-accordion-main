@@ -1,9 +1,11 @@
 * {
   margin: 0;
+  font-family: "Work Sans";
 }
 
 h1 {
-  margin-left: 24px;
+  margin-left: 20px;
+  font-size: 48px;
 }
 
 .container {
@@ -26,8 +28,9 @@ h1 {
 }
 
 .title {
-  padding: 12px 0;
+  padding: 12px 8px;
   display: flex;
+  align-items: center;
 }
 
 .attribution {

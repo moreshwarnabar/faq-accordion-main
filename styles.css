@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Work Sans";
 }
 
@@ -53,6 +55,7 @@ hr {
 .accordion-content {
   display: flex;
   flex-direction: column;
+  padding: 12px 0;
 }
 
 .content-title {

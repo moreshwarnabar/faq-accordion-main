@@ -60,11 +60,20 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .content-heading:hover {
   cursor: pointer;
   color: hsl(292, 85%, 34%);
+}
+
+.content-title svg {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-100%, -50%);
+  transition: opacity 1.2s;
 }
 
 .content-title svg:hover {
@@ -80,10 +89,15 @@ hr {
   color: hsl(292, 16%, 49%);
   max-height: 0;
   overflow: hidden;
+  transition: max-height 1.4s ease;
 }
 
 .active {
   max-height: 300px;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 .attribution {
